@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# React: Single Page Meeting Applications 
 
-You can use the [editor on GitHub](https://github.com/DUETian/React-Meeting-App/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the repository for my First React Single Page Applications. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Instructions
 
-### Markdown
+This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Installing
 
-# Header 1
-## Header 2
-### Header 3
+1. Make sure you have these installed
+   - [node.js](http://nodejs.org/)
+   - [git](http://git-scm.com/)
+2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone CLONEURL`
+3. CD to the folder `cd FOLDERNAME`
+4. Run `npm install` to install the project dependencies
+5. Run `npm start` to start live preview server
 
-- Bulleted
-- List
+## Downloading All Branches
 
-1. Numbered
-2. List
+For more advanced users, you can also download all of the branches for this repository.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DUETian/React-Meeting-App/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1.  `mkdir NAME`
+1.  `cd NAME`
+1.  `git clone --bare CLONEURL .git` (make sure you add extra .git)
+1.  `git config --bool core.bare false`
+1.  `git reset --hard`
+1.  Run `npm install` to install the project dependencies
+1.  Run `npm start` to start live preview server
